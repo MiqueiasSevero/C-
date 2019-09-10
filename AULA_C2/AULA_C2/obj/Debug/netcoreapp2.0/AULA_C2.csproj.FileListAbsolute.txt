@@ -9,3 +9,16 @@ C:\Users\miqueias.ssilva\Desktop\AULA_C2\AULA_C2\obj\Debug\netcoreapp2.0\AULA_C2
 C:\Users\miqueias.ssilva\Desktop\AULA_C2\AULA_C2\obj\Debug\netcoreapp2.0\AULA_C2.AssemblyInfo.cs
 C:\Users\miqueias.ssilva\Desktop\AULA_C2\AULA_C2\obj\Debug\netcoreapp2.0\AULA_C2.dll
 C:\Users\miqueias.ssilva\Desktop\AULA_C2\AULA_C2\obj\Debug\netcoreapp2.0\AULA_C2.pdb
+C:\workspace\c#\AULA_C2\AULA_C2\obj\Debug\netcoreapp2.0\AULA_C2.dll
+C:\workspace\c#\AULA_C2\AULA_C2\obj\Debug\netcoreapp2.0\AULA_C2.pdb
+C:\Users\miqueias.ssilva\Desktop\AULA_C2\obj\Debug\netcoreapp2.0\AULA_C2.csprojResolveAssemblyReference.cache
+C:\Users\miqueias.ssilva\Desktop\AULA_C2\obj\Debug\netcoreapp2.0\AULA_C2.csproj.CoreCompileInputs.cache
+C:\Users\miqueias.ssilva\Desktop\AULA_C2\obj\Debug\netcoreapp2.0\AULA_C2.AssemblyInfoInputs.cache
+C:\Users\miqueias.ssilva\Desktop\AULA_C2\obj\Debug\netcoreapp2.0\AULA_C2.AssemblyInfo.cs
+C:\Users\miqueias.ssilva\Desktop\AULA_C2\obj\Debug\netcoreapp2.0\AULA_C2.dll
+C:\Users\miqueias.ssilva\Desktop\AULA_C2\obj\Debug\netcoreapp2.0\AULA_C2.pdb
+C:\Users\miqueias.ssilva\Desktop\AULA_C2\bin\Debug\netcoreapp2.0\AULA_C2.deps.json
+C:\Users\miqueias.ssilva\Desktop\AULA_C2\bin\Debug\netcoreapp2.0\AULA_C2.runtimeconfig.json
+C:\Users\miqueias.ssilva\Desktop\AULA_C2\bin\Debug\netcoreapp2.0\AULA_C2.runtimeconfig.dev.json
+C:\Users\miqueias.ssilva\Desktop\AULA_C2\bin\Debug\netcoreapp2.0\AULA_C2.dll
+C:\Users\miqueias.ssilva\Desktop\AULA_C2\bin\Debug\netcoreapp2.0\AULA_C2.pdb

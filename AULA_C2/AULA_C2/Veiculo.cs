@@ -15,6 +15,15 @@ namespace AULA_C2
         private string tipoVeiculo;
 
         // metodos de atribuir
+         public void setMarcaVeiculo(string pMarcaVeiculo)
+        {
+            this.marcaVeiculo = pMarcaVeiculo;
+        }
+        public string getMarcaVeiculo()
+        {
+            return this.marcaVeiculo;
+
+        }
 
         public void setModeloVeiculo(string pModeloVeiculo)
         {
@@ -62,6 +71,22 @@ namespace AULA_C2
 
         }
       
+
+        public String Velocidade( int x)
+        {
+            if (x < 50)
+            {
+                return "TOME CUIDADO -  VELOCIDADE ABAIXO ";
+
+            }
+            else if ( x > 51 && x < 80)
+            {
+                return "CONFORME AS REGRAS ";
+
+            }
+            else { return "MULTA";  }
+
+        }
 
     }
 }
