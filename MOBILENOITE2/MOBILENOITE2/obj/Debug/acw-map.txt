@@ -1,0 +1,4 @@
+MOBILENOITE2.MainActivity, MOBILENOITE2;md577de2b6abb09d75a1a1e8b325035a55d.MainActivity
+MOBILENOITE2.MainActivity, MOBILENOITE2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md577de2b6abb09d75a1a1e8b325035a55d.MainActivity
+MOBILENOITE2.MainActivity;md577de2b6abb09d75a1a1e8b325035a55d.MainActivity
+mobilenoite2.MainActivity;md577de2b6abb09d75a1a1e8b325035a55d.MainActivity
