@@ -54,11 +54,9 @@ namespace MOBILE_NOITE
             alerta.SetPositiveButton("Yes",(senderAlert, arg) => {
 
                 Toast.MakeText(this, "Salvo!", ToastLength.Short).Show() ;
-                
+                            });
 
 
-
-            });
             alerta.SetNegativeButton("No", (senderAlert, arg) =>
              {
                  Toast.MakeText(this, "Não foi Salvo!", ToastLength.Short).Show();

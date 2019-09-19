@@ -13,12 +13,14 @@ using Android.Widget;
 namespace MOBILE_NOITE
 {
 
-    [Activity(Label = "AtividadeAlertDialog", MainLauncher = true)]
+    [Activity(Label = "AtividadeAlertDialog", MainLauncher = false , Icon = "@drawable/PROJETO")]
     class AtividadeAlertDialog:Activity
     {
 
         Button bt_cadastrar;
-        TextView nome;
+        EditText nome;
+        TextView mostrar;
+
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -27,8 +29,9 @@ namespace MOBILE_NOITE
             SetContentView(Resource.Layout.AtividadeAlertDialog);
 
             bt_cadastrar = FindViewById<Button>(Resource.Id.btPer);
-            nome = FindViewById<TextView>(Resource.Id.campoNome);
-
+            nome = FindViewById<EditText>(Resource.Id.campoNome);
+            mostrar = FindViewById<TextView>(Resource.Id.mostrar);
+            
 
 
 
@@ -39,7 +42,29 @@ namespace MOBILE_NOITE
 
         private void Bt_cadastrar_Click(object sender, EventArgs e)
         {
-            
+            AlertDialog.Builder alerta = new AlertDialog.Builder(this);
+
+            alerta.SetTitle("Opção!");
+
+            alerta.SetMessage("Deseja mostar o seu nome");
+
+            alerta.SetPositiveButton("Yes", (senderArg, arg) => {
+        //  . Text atribui ou pega 
+                mostrar.Text = nome.Text;
+                nome.Text = "";
+
+
+
+            });
+            alerta.SetNegativeButton("No", (senderArg, arg) => {
+            // duas formas de limpar
+                mostrar.Text = "";
+                nome.Text = String.Empty;
+
+
+            });
+
+            alerta.Show();
         }
     }
 }
