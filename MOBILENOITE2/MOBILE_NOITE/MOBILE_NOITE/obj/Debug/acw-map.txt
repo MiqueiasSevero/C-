@@ -10,6 +10,10 @@ MOBILE_NOITE.ViewImageView, MOBILE_NOITE;md5a76fe8e9f4c0f67d5c396a454e9f9175.Vie
 MOBILE_NOITE.ViewImageView, MOBILE_NOITE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5a76fe8e9f4c0f67d5c396a454e9f9175.ViewImageView
 MOBILE_NOITE.ViewImageView;md5a76fe8e9f4c0f67d5c396a454e9f9175.ViewImageView
 mobile_noite.ViewImageView;md5a76fe8e9f4c0f67d5c396a454e9f9175.ViewImageView
+MOBILE_NOITE.ViewRadioButton, MOBILE_NOITE;md5a76fe8e9f4c0f67d5c396a454e9f9175.ViewRadioButton
+MOBILE_NOITE.ViewRadioButton, MOBILE_NOITE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5a76fe8e9f4c0f67d5c396a454e9f9175.ViewRadioButton
+MOBILE_NOITE.ViewRadioButton;md5a76fe8e9f4c0f67d5c396a454e9f9175.ViewRadioButton
+mobile_noite.ViewRadioButton;md5a76fe8e9f4c0f67d5c396a454e9f9175.ViewRadioButton
 MOBILE_NOITE.widgetAula01, MOBILE_NOITE;md5a76fe8e9f4c0f67d5c396a454e9f9175.widgetAula01
 MOBILE_NOITE.widgetAula01, MOBILE_NOITE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5a76fe8e9f4c0f67d5c396a454e9f9175.widgetAula01
 MOBILE_NOITE.widgetAula01;md5a76fe8e9f4c0f67d5c396a454e9f9175.widgetAula01

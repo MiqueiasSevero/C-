@@ -7,7 +7,8 @@
   <application android:allowBackup="true" android:label="@string/app_name" android:name="android.app.Application" android:icon="@drawable/projeto" android:debuggable="true">
     <activity android:icon="@drawable/projeto" android:label="AtividadeAlertDialog" android:name="md5a76fe8e9f4c0f67d5c396a454e9f9175.AtividadeAlertDialog" />
     <activity android:label="MOBILE_NOITE" android:name="md5a76fe8e9f4c0f67d5c396a454e9f9175.MainActivity" />
-    <activity android:icon="@drawable/projeto" android:label="ViewImageView" android:name="md5a76fe8e9f4c0f67d5c396a454e9f9175.ViewImageView">
+    <activity android:icon="@drawable/projeto" android:label="ViewImageView" android:name="md5a76fe8e9f4c0f67d5c396a454e9f9175.ViewImageView" />
+    <activity android:icon="@drawable/projeto" android:label="ViewRadioButton" android:name="md5a76fe8e9f4c0f67d5c396a454e9f9175.ViewRadioButton">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

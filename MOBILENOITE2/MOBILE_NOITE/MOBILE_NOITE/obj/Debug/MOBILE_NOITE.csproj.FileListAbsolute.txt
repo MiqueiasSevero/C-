@@ -99,5 +99,11 @@ C:\workspace\c#\MOBILENOITE2\MOBILE_NOITE\MOBILE_NOITE\obj\Debug\android\assets\
 C:\workspace\c#\MOBILENOITE2\MOBILE_NOITE\MOBILE_NOITE\obj\Debug\MOBILE_NOITE.csprojResolveAssemblyReference.cache
 C:\workspace\c#\MOBILENOITE2\MOBILE_NOITE\MOBILE_NOITE\obj\Debug\res\layout\viewimageview.xml
 C:\workspace\c#\MOBILENOITE2\MOBILE_NOITE\MOBILE_NOITE\obj\Debug\res\drawable\xamarin.png
+C:\workspace\c#\MOBILENOITE2\MOBILE_NOITE\MOBILE_NOITE\obj\Debug\res\drawable\xamarin1.png
+C:\workspace\c#\MOBILENOITE2\MOBILE_NOITE\MOBILE_NOITE\obj\Debug\res\drawable\android.png
+C:\workspace\c#\MOBILENOITE2\MOBILE_NOITE\MOBILE_NOITE\obj\Debug\res\drawable\pessoa.png
+C:\workspace\c#\MOBILENOITE2\MOBILE_NOITE\MOBILE_NOITE\obj\Debug\res\drawable\tri.png
+C:\workspace\c#\MOBILENOITE2\MOBILE_NOITE\MOBILE_NOITE\obj\Debug\res\drawable\logo01.png
+C:\workspace\c#\MOBILENOITE2\MOBILE_NOITE\MOBILE_NOITE\obj\Debug\res\layout\viewradiobutton.xml
 C:\workspace\c#\MOBILENOITE2\MOBILE_NOITE\MOBILE_NOITE\bin\Debug\MOBILE_NOITE.dll
 C:\workspace\c#\MOBILENOITE2\MOBILE_NOITE\MOBILE_NOITE\obj\Debug\linksrc\MOBILE_NOITE.dll.mdb
