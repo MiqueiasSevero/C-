@@ -24,7 +24,7 @@ namespace MOBILE_NOITE
             base.OnCreate(savedInstanceState);
 
             // chamar a tela  do xml 
-            SetContentView(Resource.Layout.WidgetAula01);
+            SetContentView(Resource.Layout.widgetAula01);
 
             // pegar a referencia  do widget do xml
             // pegar o campo atraves do id do xml

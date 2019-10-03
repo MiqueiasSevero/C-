@@ -15,36 +15,37 @@ namespace MOBILE_NOITE
     [Activity(Label = "AULAS", MainLauncher = true)]
     public class AULAS : Activity
     {
-        
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
+
             SetContentView(Resource.Layout.AULAS);
+            var btViewSpinner = FindViewById<Button>(Resource.Id.btViewSpinner);
+            // 1º 
+            var btComp = FindViewById<Button>(Resource.Id.AutoComplet);
 
-
-            var BtAutoComplet = FindViewById<Button>(Resource.Id.AutoComplet);
-            var BtAtividadeAlertDialog = FindViewById<Button>(Resource.Id.AtividadeAlertDialog);
-            var BtAtividadeRadioButonImageView = FindViewById<Button>(Resource.Id.AtividadeRadioButonImageView);
-            var BtViewAutoCompletTextView = FindViewById<Button>(Resource.Id.ViewAutoCompletTextView);
-            var BtViewImageView = FindViewById<Button>(Resource.Id.ViewImageView);
-            var BtViewRadioButton = FindViewById<Button>(Resource.Id.ViewRadioButton);
-            var BtWidgetAula01 = FindViewById<Button>(Resource.Id.WidgetAula01);
-            var BtWiewAlertDialog = FindViewById<Button>(Resource.Id.WiewAlertDialog);
-            //delegate
-            BtAutoComplet.Click += (senderArg, arg) =>
-            {
-                // fazer um link para outra tela
-
+            //2º AULA AUTOCOMPLETE XML
+            Button btCompXML = FindViewById<Button>(Resource.Id.AutoCompletXML);
+            // EVENTO 
+            //1º
+            btComp.Click += (sender, arg) => {
+                // fazer um link(chamar tela)
                 StartActivity(typeof(ViewAutoCompletTextView));
-            };
-            BtAtividadeAlertDialog.Click += (senderArg, arg) => {
-
-                StartActivity(typeof(Atividade_AlertDialog));
 
             };
 
+            //2º
+            btCompXML.Click += (x, y) => {
+                //chamando a tela autocompetxml(link)
+                StartActivity(typeof(ViewAutoCompletTextViewXML));
+            };
 
-            
+            btViewSpinner.Click += (seder, arg) =>
+            {
+                StartActivity(typeof(ViewSpinner));
+            };
+
         }
     }
 }

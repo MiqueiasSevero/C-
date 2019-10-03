@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">MOBILE BUSCAMEC</string>
+  <string name="app_name">MOBILE_NOITE</string>
   <string name="bt_complet">View AutoComplet</string>
-  <string name="bt_atividade01">Atividade AlertDialog </string>
-  <string name="bt_atividade02">Atividade RadioButon ImageView </string>
-  <string name="bt_ViewAutoCompletTextView">View AutoComplet TextView </string>
-  <string name="bt_ViewImageView">View ImageView </string>
-  <string name="bt_ViewRadioButton">View RadioButton </string>
-  <string name="bt_WidgetAula01">Widget Aula01 </string>
-  <string name="bt_WiewAlertDialog">Wiew AlertDialog </string>
   <string name="estado">Estados</string>
- 
-
-
+  <string name="ms_estado">Digite o Estado</string>
+  <string name="bt_completXML">View AutoComplet XML</string>
+  <string name="bt_viewSpinner">View Spinner </string>
 </resources>

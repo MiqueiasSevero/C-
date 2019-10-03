@@ -12,36 +12,11 @@
     <Button
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:id="@+id/AtividadeAlertDialog"
-        android:text="@string/bt_atividade01" />
+        android:id="@+id/AutoCompletXML"
+        android:text="@string/bt_completXML" />
     <Button
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:id="@+id/AtividadeRadioButonImageView"
-        android:text="@string/bt_atividade02" />
-    <Button
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:id="@+id/ViewAutoCompletTextView"
-        android:text="@string/bt_ViewAutoCompletTextView" />
-    <Button
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:id="@+id/ViewImageView"
-        android:text="@string/bt_ViewImageView" />
-    <Button
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:id="@+id/ViewRadioButton"
-        android:text="@string/bt_ViewRadioButton" />
-    <Button
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:id="@+id/WidgetAula01"
-        android:text="@string/bt_WidgetAula01" />
-    <Button
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:id="@+id/WiewAlertDialog"
-        android:text="@string/bt_WiewAlertDialog" />
+        android:id="@+id/btViewSpinner"
+        android:text="@string/bt_viewSpinner" />
 </LinearLayout>

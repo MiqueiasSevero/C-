@@ -17,25 +17,45 @@ namespace MOBILE_NOITE
     {
 
         static string[] estado = new string[] {
-            "Acre","Alagoas","Amapá","Amazonas","Bahia","Ceará","Distrito Federal","Espírito Santo"
+            "Acre",
+            "Alagoas",
+            "Amapá",
+            "Amazonas",
+            "Bahia",
+            "Ceará",
+            "CURITIBA"
+        };
 
-
-            };
         AutoCompleteTextView AutoC;
-       static  ArrayAdapter <String> adaptador;
+        static ArrayAdapter<String> adaptador;
 
-    protected override void OnCreate(Bundle savedInstanceState)
-
-
+        protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
+
             SetContentView(Resource.Layout.ViewAutoCompletTextView);
-            AutoC = FindViewById<AutoCompleteTextView>(Resource.Id.AutoComplete);
-            adaptador = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItem1, estado);
+
+            AutoC = FindViewById<AutoCompleteTextView>(
+                Resource.Id.estado);
+
+            adaptador = new ArrayAdapter<String>(this,
+                Android.Resource.Layout.SimpleListItem1, estado);
+
             AutoC.Adapter = adaptador;
 
+            //Evento AutoCompletView
+            AutoC.ItemClick += AutoC_ItemClick;
 
-            
         }
+
+        private void AutoC_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
+        {
+            var v = (AutoCompleteTextView)sender; 
+            //retorna a posição do elemeneto clicado no auto view indice
+            Toast.MakeText(this, e.Position.ToString(), ToastLength.Short).Show();
+            //
+            //Toast.MakeText(this,AutoC.Text , ToastLength.Short).Show();
+        }
+
     }
 }
