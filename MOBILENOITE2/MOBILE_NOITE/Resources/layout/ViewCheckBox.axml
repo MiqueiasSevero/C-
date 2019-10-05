@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minHeight="25px"
+    android:minWidth="25px"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        >
+        <CheckBox
+            android:id="@+id/chk_php"
+            android:text="PHP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:textAlignment="viewEnd"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp" />
+      
+        <CheckBox
+            android:id="@+id/chk_java"
+            android:text="java"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:textAlignment="viewEnd"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp" />
+      
+        <CheckBox
+            android:id="@+id/chk_mysql"
+            android:text="mysql"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:textAlignment="viewEnd"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp" />
+      
+        <CheckBox
+            android:id="@+id/chk_c"
+            android:text="c#"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:textAlignment="viewEnd"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp" />
+      
+        <CheckBox
+            android:id="@+id/chk_cobol"
+            android:text="cobol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:textAlignment="viewEnd"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp" />
+      
+        <CheckBox
+            android:id="@+id/chk_css"
+            android:text="css"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:textAlignment="viewEnd"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp" />
+      
+        <CheckBox
+            android:id="@+id/chk_angula"
+            android:text="angula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:textAlignment="viewEnd"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp" />
+      
+        <CheckBox
+            android:id="@+id/chk_react"
+            android:text="react"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:textAlignment="viewEnd"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp" />
+      
+        <CheckBox
+            android:id="@+id/chk_vue"
+            android:text="vue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:textAlignment="viewEnd"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp" />
+      
+        <CheckBox
+            android:id="@+id/chk_js"
+            android:text="js"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:textAlignment="viewEnd"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp" />
+      
+        <CheckBox
+            android:id="@+id/chk_jquery"
+            android:text="jquery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:textAlignment="viewEnd"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp" />
+      
+    </LinearLayout>
+</ScrollView>

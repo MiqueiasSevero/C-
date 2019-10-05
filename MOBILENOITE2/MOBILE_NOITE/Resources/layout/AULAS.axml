@@ -19,4 +19,16 @@
         android:layout_width="match_parent"
         android:id="@+id/btViewSpinner"
         android:text="@string/bt_viewSpinner" />
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/btViewSpinnerXml"
+        android:text="@string/bt_viewSpinnerXml" />
+
+    <Button
+       android:layout_height="wrap_content"
+       android:layout_width="match_parent"
+       android:id="@+id/btViewCheckBox"
+       android:text="@string/bt_viewCheckBox" />
+  
 </LinearLayout>

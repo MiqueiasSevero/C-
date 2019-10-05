@@ -27,6 +27,10 @@ namespace MOBILE_NOITE
 
             //2º AULA AUTOCOMPLETE XML
             Button btCompXML = FindViewById<Button>(Resource.Id.AutoCompletXML);
+
+            Button btViewSpinnerXml = FindViewById<Button>(Resource.Id.btViewSpinnerXml);
+            Button btViewCheckBox = FindViewById<Button>(Resource.Id.btViewCheckBox);
+
             // EVENTO 
             //1º
             btComp.Click += (sender, arg) => {
@@ -45,7 +49,18 @@ namespace MOBILE_NOITE
             {
                 StartActivity(typeof(ViewSpinner));
             };
+            btViewSpinnerXml.Click += BtViewSpinnerXml_Click;
+            btViewCheckBox.Click += BtViewCheckBox_Click;
+              }
 
+        private void BtViewCheckBox_Click(object sender, EventArgs e)
+        {
+            StartActivity(typeof(ViewCheckBox));
+        }
+
+        private void BtViewSpinnerXml_Click(object sender, EventArgs e)
+        {
+            StartActivity(typeof(ViewSpinnerXml));
         }
     }
 }

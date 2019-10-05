@@ -6,4 +6,6 @@
   <string name="ms_estado">Digite o Estado</string>
   <string name="bt_completXML">View AutoComplet XML</string>
   <string name="bt_viewSpinner">View Spinner </string>
+  <string name="bt_viewSpinnerXml">View Spinner Xml </string>
+  <string name="bt_viewCheckBox">View CheckBox </string>
 </resources>
