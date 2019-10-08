@@ -11,5 +11,5 @@
         android:id="@+id/lb_sp"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:padding="15dp"/>
+        android:padding="15dp" />
 </LinearLayout>

@@ -6,6 +6,10 @@ MOBILE_NOITE.Atividade_AlertDialog, MOBILE_NOITE;md5a76fe8e9f4c0f67d5c396a454e9f
 MOBILE_NOITE.Atividade_AlertDialog, MOBILE_NOITE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5a76fe8e9f4c0f67d5c396a454e9f9175.Atividade_AlertDialog
 MOBILE_NOITE.Atividade_AlertDialog;md5a76fe8e9f4c0f67d5c396a454e9f9175.Atividade_AlertDialog
 mobile_noite.Atividade_AlertDialog;md5a76fe8e9f4c0f67d5c396a454e9f9175.Atividade_AlertDialog
+MOBILE_NOITE.AtividedeForm, MOBILE_NOITE;md5a76fe8e9f4c0f67d5c396a454e9f9175.AtividedeForm
+MOBILE_NOITE.AtividedeForm, MOBILE_NOITE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5a76fe8e9f4c0f67d5c396a454e9f9175.AtividedeForm
+MOBILE_NOITE.AtividedeForm;md5a76fe8e9f4c0f67d5c396a454e9f9175.AtividedeForm
+mobile_noite.AtividedeForm;md5a76fe8e9f4c0f67d5c396a454e9f9175.AtividedeForm
 MOBILE_NOITE.AULAS, MOBILE_NOITE;md5a76fe8e9f4c0f67d5c396a454e9f9175.AULAS
 MOBILE_NOITE.AULAS, MOBILE_NOITE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5a76fe8e9f4c0f67d5c396a454e9f9175.AULAS
 MOBILE_NOITE.AULAS;md5a76fe8e9f4c0f67d5c396a454e9f9175.AULAS

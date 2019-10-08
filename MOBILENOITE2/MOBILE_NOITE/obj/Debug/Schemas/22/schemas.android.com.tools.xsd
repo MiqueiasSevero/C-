@@ -2,7 +2,7 @@
 <xs:schema xmlns:tools="http://schemas.android.com/tools" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/tools" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v22</xs:documentation>
-    <xs:documentation>04/10/2019 22:02:03</xs:documentation>
+    <xs:documentation>07/10/2019 22:13:57</xs:documentation>
   </xs:annotation>
   <xs:attribute name="layout">
     <xs:annotation>
@@ -14,6 +14,7 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@layout/atividade_alertdialog" />
             <xs:enumeration value="@layout/atividade2_radiobutton_imageview" />
+            <xs:enumeration value="@layout/atividadeform" />
             <xs:enumeration value="@layout/aulas" />
             <xs:enumeration value="@layout/main" />
             <xs:enumeration value="@layout/viewautocomplettextview" />
@@ -63,6 +64,7 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@layout/atividade_alertdialog" />
             <xs:enumeration value="@layout/atividade2_radiobutton_imageview" />
+            <xs:enumeration value="@layout/atividadeform" />
             <xs:enumeration value="@layout/aulas" />
             <xs:enumeration value="@layout/main" />
             <xs:enumeration value="@layout/viewautocomplettextview" />
@@ -112,6 +114,7 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@layout/atividade_alertdialog" />
             <xs:enumeration value="@layout/atividade2_radiobutton_imageview" />
+            <xs:enumeration value="@layout/atividadeform" />
             <xs:enumeration value="@layout/aulas" />
             <xs:enumeration value="@layout/main" />
             <xs:enumeration value="@layout/viewautocomplettextview" />
@@ -161,6 +164,7 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@layout/atividade_alertdialog" />
             <xs:enumeration value="@layout/atividade2_radiobutton_imageview" />
+            <xs:enumeration value="@layout/atividadeform" />
             <xs:enumeration value="@layout/aulas" />
             <xs:enumeration value="@layout/main" />
             <xs:enumeration value="@layout/viewautocomplettextview" />
@@ -209,6 +213,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/app_name" />
+            <xs:enumeration value="@string/bt_atividadeForm" />
             <xs:enumeration value="@string/bt_complet" />
             <xs:enumeration value="@string/bt_completXML" />
             <xs:enumeration value="@string/bt_viewCheckBox" />

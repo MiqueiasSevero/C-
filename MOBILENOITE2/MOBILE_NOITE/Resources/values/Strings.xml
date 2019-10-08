@@ -8,4 +8,5 @@
   <string name="bt_viewSpinner">View Spinner </string>
   <string name="bt_viewSpinnerXml">View Spinner Xml </string>
   <string name="bt_viewCheckBox">View CheckBox </string>
+  <string name="bt_atividadeForm">Atividade Formulário </string>
 </resources>

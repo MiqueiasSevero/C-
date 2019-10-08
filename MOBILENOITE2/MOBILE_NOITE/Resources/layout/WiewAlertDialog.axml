@@ -8,14 +8,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="alertDialog" />
-  <Button
-    android:id="@+id/btAlertOkNo"
-    android:layout_height="wrap_content"
-    android:layout_width="match_parent"
-    android:text="Alert Yes/No"
-  />  
-    
-
+    <Button
+        android:id="@+id/btAlertOkNo"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Alert Yes/No" />
     <Button
         android:id="@+id/btToast"
         android:layout_width="match_parent"

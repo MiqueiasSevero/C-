@@ -30,6 +30,7 @@ namespace MOBILE_NOITE
 
             Button btViewSpinnerXml = FindViewById<Button>(Resource.Id.btViewSpinnerXml);
             Button btViewCheckBox = FindViewById<Button>(Resource.Id.btViewCheckBox);
+            Button btatividadeForm = FindViewById<Button>(Resource.Id.btatividadeForm); 
 
             // EVENTO 
             //1º
@@ -51,7 +52,13 @@ namespace MOBILE_NOITE
             };
             btViewSpinnerXml.Click += BtViewSpinnerXml_Click;
             btViewCheckBox.Click += BtViewCheckBox_Click;
+            btatividadeForm.Click += BtatividadeForm_Click;
               }
+
+        private void BtatividadeForm_Click(object sender, EventArgs e)
+        {
+            StartActivity(typeof(AtividedeForm));
+        }
 
         private void BtViewCheckBox_Click(object sender, EventArgs e)
         {
