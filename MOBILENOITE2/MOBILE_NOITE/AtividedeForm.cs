@@ -19,6 +19,13 @@ namespace MOBILE_NOITE
         Spinner sp;
         ArrayAdapter adpter;
 
+        EditText edit_nome, edit_rua, edit_cidade,edit_numero,edit_senha, edit_bairro;
+        Button bt_cad;
+        RadioButton rd_f, rd_m;
+        TextView mostrar;
+        string estado;
+
+
         protected override void OnCreate(Bundle savedInstanceState)
 
 
@@ -26,16 +33,18 @@ namespace MOBILE_NOITE
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.AtividadeForm);
 
-            sp = FindViewById<Spinner>(Resource.Id.sp_estado);
-            EditText edit_nome = FindViewById<EditText>(Resource.Id.edit_nome);
-            EditText edit_rua = FindViewById<EditText>(Resource.Id.edit_rua);
-            EditText edit_cidade = FindViewById<EditText>(Resource.Id.edit_cidade);
-            EditText edit_numero = FindViewById<EditText>(Resource.Id.edit_numero);
-            EditText edit_senha = FindViewById<EditText>(Resource.Id.edit_senha);
-            EditText edit_bairro = FindViewById<EditText>(Resource.Id.edit_bairro);
-            Button bt_cad = FindViewById<Button>(Resource.Id.bt_cad);
-            RadioButton rd_f = FindViewById<RadioButton>(Resource.Id.rd_f);
-            RadioButton rd_m = FindViewById<RadioButton>(Resource.Id.rd_m);
+             sp = FindViewById<Spinner>(Resource.Id.sp_estado);
+             edit_nome = FindViewById<EditText>(Resource.Id.edit_nome);
+             edit_rua = FindViewById<EditText>(Resource.Id.edit_rua);
+             edit_cidade = FindViewById<EditText>(Resource.Id.edit_cidade);
+             edit_numero = FindViewById<EditText>(Resource.Id.edit_numero);
+             edit_senha = FindViewById<EditText>(Resource.Id.edit_senha);
+             edit_bairro = FindViewById<EditText>(Resource.Id.edit_bairro);
+             bt_cad = FindViewById<Button>(Resource.Id.bt_cad);
+             rd_f = FindViewById<RadioButton>(Resource.Id.rd_f);
+             rd_m = FindViewById<RadioButton>(Resource.Id.rd_m);
+             
+            mostrar = FindViewById<TextView>(Resource.Id.mostra_dados);
 
 
 
@@ -45,12 +54,27 @@ namespace MOBILE_NOITE
             sp.Adapter = adpter;
 
             bt_cad.Click += Bt_cad_Click;
+            sp.ItemSelected += Sp_ItemSelected;
+        }
+
+        private void Sp_ItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)
+        {
+            estado = sp.GetItemAtPosition(e.Position).ToString();
         }
 
         private void Bt_cad_Click(object sender, EventArgs e)
         {
-            if()
+            if( rd_f.Checked)
             {
+                mostrar.Text = " Nome: " + edit_nome.Text + "\n Sexo : Feminino" + "\n Rua:" + edit_rua.Text + "\n Numero:" + edit_numero.Text 
+                    + "\n Bairro:" + edit_bairro.Text + "\n Cidade:" + edit_cidade.Text + "\n estado:" + estado;
+                (mostrar.Text).ToUpper(); 
+            }
+            if (rd_m.Checked)
+            {
+                mostrar.Text = " Nome: " + edit_nome.Text + "\n Sexo : MAsculino" + "\n Rua:" + edit_rua.Text + "\n Numero:" + edit_numero.Text
+                   + "\n Bairro:" + edit_bairro.Text + "\n Cidade:" + edit_cidade.Text + "\n estado:" + estado ;
+                (mostrar.Text).ToUpper();
 
             }
         }

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minHeight="25px"
+    android:minWidth="25px"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+<LinearLayout
+  
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:background="@android:color/holo_purple" >
+
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome:" />
+    <EditText
+        android:id="@+id/edit_nome"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sexo:" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioGroup
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+        
+      
+      >
+
+            <RadioButton
+                android:id="@+id/rd_f"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="F" />
+            <RadioButton
+                android:id="@+id/rd_m"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="M" />
+        </RadioGroup >
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rua:" />
+    <EditText
+        android:id="@+id/edit_rua"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Numero:" />
+    <EditText
+        android:id="@+id/edit_numero"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bairro:" />
+    <EditText
+        android:id="@+id/edit_bairro"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cidade:" />
+    <EditText
+        android:id="@+id/edit_cidade"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Estado:" />
+    <Spinner
+        android:id="@+id/sp_estado"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Senha:" />
+    <EditText
+        android:id="@+id/edit_senha"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="textPassword"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView1" />
+
+
+
+    <Button
+        android:id="@+id/bt_cad"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Cadastar"
+        android:layout_marginTop="15dp"
+    />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/mostra_dados"
+          
+    
+    />
+
+
+</LinearLayout>
+</ScrollView>
