@@ -1,0 +1,4 @@
+CrudAndroidMysql.MainActivity, CrudAndroidMysql;md5491815c58167745396c94b65cc2a969f.MainActivity
+CrudAndroidMysql.MainActivity, CrudAndroidMysql, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5491815c58167745396c94b65cc2a969f.MainActivity
+CrudAndroidMysql.MainActivity;md5491815c58167745396c94b65cc2a969f.MainActivity
+crudandroidmysql.MainActivity;md5491815c58167745396c94b65cc2a969f.MainActivity
